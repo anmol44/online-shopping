@@ -14,7 +14,7 @@ body {
 
 @media ( min-width : 992px) {
 	body {
-		padding-top: 56px;
+		padding-top: 0px;
 	}
 }
 footer{
@@ -25,7 +25,7 @@ footer{
 custom styling
 */
 .wrapper {
-	min-height: 100%;
+	min-height: 0%;
 	postion: relative;
 }
 

@@ -10,9 +10,13 @@ $(function() {
 		// id is about
 		$('#contact').addClass('active');
 		break;
-	case 'home':
+	case 'All Products':
+		$('#listProducts').addClass('active');
+		break;
+	default:
 		// id is about
 		$('#home').addClass('active');
+	    $('#a_'+menu).addClass('active');
 		break;
 	}
 
