@@ -24,12 +24,26 @@
 <title>online shopping - ${title}</title>
 <script>
 	window.menu = "${title}"
+	window.contextRoot = "${contextRoot}"
 </script>
 
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap readable theme CSS -->
 <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+	rel="stylesheet">
+
+<!-- Bootstrap dataTable theme CSS -->
+<link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
+<link href="${css}/bootstrap-grid.css" rel="stylesheet">
+<link href="${css}/bootstrap-grid.css.map" rel="stylesheet">
+
+<link href="${css}/dataTables.jqueryui.css" rel="stylesheet">
+
+
+
 
 
 <!-- Custom styles for this template -->
@@ -56,12 +70,20 @@
 			<c:if test="${userClickContact == true }">
 				<%@include file="contact.jsp"%>
 			</c:if>
-			
+
 			<!--load only when user clicks contact   -->
-			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true }">
+			<c:if
+				test="${userClickAllProducts == true or userClickCategoryProducts == true }">
 				<%@include file="listProducts.jsp"%>
 			</c:if>
 		</div>
+
+		<!--load only when user clicks show product   -->
+		<c:if test="${userClickShowProduct == true }">
+			<%@include file="singleProduct.jsp"%>
+		</c:if>
+
+
 		<!-- Footer comes here-->
 		<%@include file="./shared/footer.jsp"%>
 
@@ -70,6 +92,17 @@
 		<script src="${js}/popper.js"></script>
 		<script src="${js}/bootstrap.min.js"></script>
 		<!--self coded javascript  -->
+
+		<!-- data table plugin -->
+		<script src="${js}/jquery.dataTables.js"></script>
+
+		<!-- datatable bootstrap script -->
+		<script src="${js}/dataTables.bootstrap.js"></script>
+
+
+
+		<script src="${js}/dataTables.jqueryui.js"></script>
+
 		<script src="${js}/myapp.js"></script>
 	</div>
 </body>

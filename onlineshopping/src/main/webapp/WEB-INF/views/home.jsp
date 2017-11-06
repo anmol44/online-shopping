@@ -19,16 +19,17 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active">
-						<img class="d-block img-fluid" src="http://placehold.it/900x350"
-							alt="First slide">
+						<img class="d-block img-fluid" src="http://images.indianexpress.com/2017/09/apple_iphonex_big_reuters-copy.jpg"
+							class = "dataTableIMG" alt="First slide">
+							<a href = "${window.contextRoot}"></a>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid" src="http://placehold.it/900x350"
-							alt="Second slide">
+						<img class="d-block img-fluid" src="https://d2giyh01gjb6fi.cloudfront.net/default/0001/66/thumb_65013_default_big.jpeg"
+							class = "dataTableIMG" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block img-fluid" src="http://placehold.it/900x350"
-							alt="Third slide">
+						<img class="d-block img-fluid" src="https://cnet2.cbsistatic.com/img/yZA2wFbUEGlFGpSpW5AqqYRjyhc=/770x433/2017/06/16/2f757d0c-7e39-4fc0-8663-5e9bf58331b1/oneplus5-cnet.jpg"
+							class = "dataTableIMG" alt="Third slide">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators"

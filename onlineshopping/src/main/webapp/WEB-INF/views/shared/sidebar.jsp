@@ -1,5 +1,5 @@
 
-<h1 class="my-4">ANMOL SHOP</h1>
+<h1 class="my-4" style = "color:red">ANMOL SHOP</h1>
 <p class = "lead"></p>
 <div class="list-group">
 

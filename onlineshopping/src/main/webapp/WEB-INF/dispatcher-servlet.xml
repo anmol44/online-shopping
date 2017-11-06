@@ -10,7 +10,7 @@
     http://www.springframework.org/schema/mvc
    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	<context:component-scan base-package="net.anm.onlineshopping.controller"></context:component-scan>
-	<context:component-scan base-package="net.anm.shoppingbackend.daoimpl"></context:component-scan>
+	<context:component-scan base-package="net.anm.shoppingbackend"></context:component-scan>
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
